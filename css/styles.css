@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Roboto;';
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+h2 {
+  font-family: 'Roboto;';
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+h3 {
+  font-family: 'Roboto;';
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+body {
+  font-family: 'Roboto;';
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+}
+.button {
+  font-family: 'Roboto;';
+  font-weight: medium;
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 24px;
+}
+.link {
+  font-family: 'Roboto;';
+  font-weight: regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 16px;
+  text-decoration: underline;
+}
