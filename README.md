@@ -1,2 +1,3 @@
 # goit-markup-hw-02
-hw2
+
+This is the homework for the GOiT course.
