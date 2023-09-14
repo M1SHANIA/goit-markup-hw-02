@@ -1,42 +1,102 @@
-h1 {
-  font-family: 'Roboto;';
-  font-weight: bold;
-  font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
-}
-h2 {
-  font-family: 'Roboto;';
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 2%;
-}
-h3 {
-  font-family: 'Roboto;';
-  font-weight: medium;
-  font-size: 20px;
-  letter-spacing: 2%;
-}
 body {
-  font-family: 'Roboto;';
-  font-weight: regular;
-  font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
 }
-.button {
-  font-family: 'Roboto;';
-  font-weight: medium;
-  font-size: 16px;
-  letter-spacing: 4%;
-  line-height: 24px;
+button {
   cursor: pointer;
 }
-.link {
-  font-family: 'Roboto;';
-  font-weight: regular;
-  font-size: 12px;
-  letter-spacing: 4%;
-  line-height: 16px;
-  text-decoration: underline;
+h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+li {
+  list-style: none;
+}
+.header {
+}
+.header-span {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-txt {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-list {
+  /* Body Medium */
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.header-adress {
+}
+.header-adress-item {
+  color: #434455;
+
+  /* Body */
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+.hero {
+  background: #2e2f42;
+}
+.hero-btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+.studio-list {
+}
+.studio-list-item {
+}
+.team-list {
+}
+.team-list-item {
+}
+.image {
+}
+.portfolio-list-first {
+}
+.portfolio-list-first-item {
+}
+.portfolio-list-second {
+}
+.portfolio-list-second-item {
+}
+.footer {
+}
+.footer-txt {
 }
