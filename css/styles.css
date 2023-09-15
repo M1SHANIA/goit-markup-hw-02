@@ -23,8 +23,9 @@ h1 {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07143; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
+  text-align: center;
 }
 h2 {
   font-size: 36px;
@@ -33,31 +34,39 @@ h2 {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .header {
 }
 .header-span {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16667; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.logo-txt {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1667; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.logo-txt {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
 .header-list-item {
   /* Body Medium */
   font-weight: 500;
@@ -70,28 +79,33 @@ h3 {
 .header-list-item-link:hover {
   color: #404bbf;
 }
+
+.header-list-item-link:focus {
+  color: #404bbf;
+}
 .header-adress {
+  font-style: normal;
+  color: #434455;
+}
+.header-adress-list {
 }
 .header-adress-item {
-  font-style: normal;
 }
 
 .header-adress-item-link {
-  color: #2e2f42;
+  color: #434455;
 }
 .header-adress-item-link:hover {
+  color: #404bbf;
+}
+.header-adress-item-link:focus {
   color: #404bbf;
 }
 .hero {
   background-color: #2e2f42;
 }
 .hero-btn {
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -101,7 +115,11 @@ h3 {
 .hero-btn:hover {
   background-color: #404bbf;
 }
+.hero-btn:focus {
+  color: #404bbf;
+}
 .studio-list {
+  font-size: 16px;
 }
 .studio-list-item {
 }
@@ -132,13 +150,23 @@ h3 {
 .footer-txt {
   color: #f4f4fd;
 }
-.footer-logo-txt {
+.footer-span {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16667; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo-txt {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
